@@ -25,8 +25,8 @@ description              : "My Data Exploration Journey is a space where I share
 url                      : https://trann8.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : https://github.com/trann8/trann8.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : assets/images/teaser2.png
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : assets/images/teaser2.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200

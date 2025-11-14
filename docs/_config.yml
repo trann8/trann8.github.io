@@ -14,8 +14,8 @@ description: >
   From forecasting to churn analysis – this portfolio tells the story behind the numbers.
 
 # URL settings (change for a custom domain)
-url:         https://<your-github-username>.github.io
-baseurl:     ""   # leave empty unless you host under /subfolder
+url:         https://trann8.github.io
+baseurl:     "/docs"   # leave empty unless you host under /subfolder
 
 # Theme & layout
 theme:       minimal-mistakes-jekyll

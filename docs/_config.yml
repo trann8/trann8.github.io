@@ -1,3 +1,101 @@
-theme: jekyll-theme-minimal
-title: Meg's homepage
-description: Bookmark this to keep an eye on my project updates!
+# --------------------------------------------------
+# Jekyll Configuration for a Fun & Professional Portfolio
+# --------------------------------------------------
+
+# Basic Site Settings
+title:       "Your Name – Business Analytics Portfolio"
+author:
+  name:      "Your Name"
+  email:     "you@example.com"
+  twitter:   "your_twitter_handle"           # optional
+  linkedin:  "https://linkedin.com/in/yourprofile"
+description: >
+  A showcase of data‑driven projects, dashboards, and insights.  
+  From forecasting to churn analysis – this portfolio tells the story behind the numbers.
+
+# URL settings (change for a custom domain)
+url:         https://<your-github-username>.github.io
+baseurl:     ""   # leave empty unless you host under /subfolder
+
+# Theme & layout
+theme:       minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed          # RSS feed
+  - jekyll-seo-tag       # SEO metadata
+  - jekyll-sitemap       # Sitemap.xml
+
+# --------------------------------------------------
+# Minimal Mistakes Configuration – Customized
+# --------------------------------------------------
+
+minimal_mistakes_skin: "contrast"           # Light or Contrast skin for a clean look
+breadcrumbs:            true                # Show breadcrumbs (nice navigation)
+navigation:
+  - title: "Home"
+    url:   "/"
+  - title: "Projects"
+    url:   "/projects/"
+  - title: "Blog"
+    url:   "/blog/"
+  - title: "About"
+    url:   "/about/"
+
+# --------------------------------------------------
+# Colors & Typography – Fun but Professional
+# --------------------------------------------------
+color_scheme:
+  primary: "#1A73E8"      # Google‑Blue (trust, professionalism)
+  secondary: "#FF9800"    # Orange accent for calls to action
+  background: "#FFFFFF"
+  text: "#333333"
+
+font_family: "Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+
+# --------------------------------------------------
+# Social Icons – Use playful yet clean icons
+# --------------------------------------------------
+social_links:
+  - icon: "fab fa-github"          # Font Awesome icon names
+    url:   "https://github.com/your-username"
+    title: "GitHub"
+  - icon: "fab fa-linkedin"
+    url:   "https://linkedin.com/in/yourprofile"
+    title: "LinkedIn"
+  - icon: "fas fa-envelope"
+    url:   "mailto:you@example.com"
+    title: "Email"
+
+# --------------------------------------------------
+# SEO & Analytics
+# --------------------------------------------------
+google_analytics: UA-XXXXXXXX-X        # replace with your GA ID (optional)
+facebook:
+  app_id: "1234567890"                 # optional, for Open Graph
+
+# --------------------------------------------------
+# Build Settings
+# --------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+exclude: [README.md, Gemfile*, vendor]
+keep_files: ["assets", "images"]
+
+# --------------------------------------------------
+# Optional Enhancements
+# --------------------------------------------------
+# Enable a search bar (uses Algolia or Lunr)
+search_enabled: true
+search:
+  provider: lunr            # local JavaScript search
+
+# Enable post excerpt length for blog previews
+excerpt_separator: "<!--more-->"
+
+# --------------------------------------------------
+# Collections – if you want to organize projects as a collection
+# --------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

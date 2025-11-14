@@ -25,7 +25,7 @@ description              : "My Data Exploration Journey is a space where I share
 url                      : https://trann8.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : https://github.com/trann8/trann8.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : image:/assets/images/teaser2.png
+teaser                   : assets/images/teaser2.png
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Meg Nguyen"
-  avatar           : image:/assets/images/bio_image.png
+  avatar           : assets/images/bio_image.png
   bio              : "Business Analytist and Strategist"
   location         : "WA, USA"
   # email            :

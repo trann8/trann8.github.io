@@ -2,7 +2,6 @@
 layout: single
 title: "About Me, Jennie & Kimmy"
 permalink: /about/
-author_profile: true
 classes: wide
 ---
 

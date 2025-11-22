@@ -44,7 +44,7 @@ Our service is facing two critical challenges:
 - **Critical Window:** 19:00–00:00 — highest concentration of late and missing deliveries  
 - **Cancellations:** Low and consistent
 
-![Hourly Heatmap](../assets/images/hourly_heatmap.png)
+![Hourly Heatmap](/assets/images/hourly_heatmap.png)
 
 ---
 
@@ -54,28 +54,28 @@ Our service is facing two critical challenges:
 - **Resolution Gap:** Only 8% of complaints were resolved with substitutions  
 - **Mismatch Rate:** 166 substitute items didn’t match original category
 
-![Substitution Accuracy](../assets/images/substitution_bar_chart.png)
+![Substitution Accuracy](/assets/images/substitution_bar_chart.png)
 
 ### Wait Time:
 - **Median Acceptance Time:** ~1.5 minutes  
 - **Outliers:** Up to 120 minutes  
 - **Insights:** Low-priced orders (< $0.20) ignored by drivers
 
-![Acceptance Time Distribution](../assets/images/violin_plot_wait_time.png)
+![Acceptance Time Distribution](/assets/images/violin_plot_wait_time.png)
 
 ---
 
 ## 🚗 Dasher Performance
 
 - **Travel Time Impact:** Longer store arrival → higher chance of late delivery  
-![Travel Time vs Late Status](../assets/images/travel_time_late_status.png)
+![Travel Time vs Late Status](/assets/images/travel_time_late_status.png)
 
 - **Price Sensitivity:**  
   - Orders < $0.20 → longest wait times  
   - Orders > $0.40 → fast, predictable acceptance
 
-![Price vs Acceptance Time](../assets/images/price_acceptance_scatter.png)
-![Distance vs Acceptance Time](../assets/images/Distance_acceptance_scatter.png)
+![Price vs Acceptance Time](/assets/images/price_acceptance_scatter.png)
+![Distance vs Acceptance Time](/assets/images/Distance_acceptance_scatter.png)
 
 ---
 
@@ -87,13 +87,13 @@ Our service is facing two critical challenges:
   - Substitution Rate: 0.1%  
 - **Grocery1:**  
   - Missing Rate: 14.8%
- ![Merchant performance](../assets/images/merchant_performance.png) 
+ ![Merchant performance](/assets/images/merchant_performance.png) 
 
 ### Menu Optimization:
 - Share top 5 items per top 5 categories  
 - Help merchants stock popular items and improve substitutions
 
-![Top Items Bubble Chart](../assets/images/top_items_bubble_chart.png)
+![Top Items Bubble Chart](/assets/images/top_items_bubble_chart.png)
 
 ---
 

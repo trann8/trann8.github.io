@@ -1,7 +1,6 @@
 ---
 title: "Delivery Performance Deep Dive: What’s Driving Customer Dissatisfaction?"
-author: "Meg (Tran) Nguyen"
-last_modified_at: 11/21/2025
+last_modified_at: 2025-11-21T00:00:00-00:00
 categories: [Operations, Analytics, Strategy]
 tags: [delivery, logistics, customer experience, data analysis]
 link: https://github.com/trann8/trann8.github.io/blob/main/1-Biz_strategy/Delivery_Analysis_and_Insights/DoorDash.ipynb

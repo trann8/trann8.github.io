@@ -1,8 +1,12 @@
 ---
 title: "Delivery Performance Deep Dive: What’s Driving Customer Dissatisfaction?"
-last_modified_at: 2025-11-21T00:00:00-00:00
-categories: [Operations, Analytics, Strategy]
-tags: [delivery, logistics, customer experience, data analysis]
+categories:
+  - Analytics
+tags:
+  - delivery
+  - logistic
+  - customer experience
+  - data analysis
 link: https://github.com/trann8/trann8.github.io/blob/main/1-Biz_strategy/Delivery_Analysis_and_Insights/DoorDash.ipynb
 ---
 

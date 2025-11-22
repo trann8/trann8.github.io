@@ -26,7 +26,7 @@ Our service is facing two critical challenges:
 - **Low percentage of missing data**: `DELIV_DASHER_ID`, `DELIV_D2R`, `DELIV_CLAT` . These gaps are unlikely to affect most analyses. Therefore, I’ve chosen to drop null rows, as these fields are essential for downstream processing
 - **Intentional Blanks**: `DELIV_CANCELLED_AT`, `SUBSTITUTE_ITEM_NAME`, `CATEGORY`
 
-## 🔥 Narket snapshot
+## 🔥 Market snapshot
 - **Total Orders:** 60,583 (Sep 16–Oct 14, 2022, Cincinnati)  
 - **Cancellation Rate:** 1.1%  
 - **Late Delivery Rate:** 4.7%  

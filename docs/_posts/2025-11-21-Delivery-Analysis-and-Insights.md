@@ -7,6 +7,7 @@ tags:
   - logistic
   - customer experience
   - data analysis
+  - Python
 toc: true
 toc_sticky: true
 ---

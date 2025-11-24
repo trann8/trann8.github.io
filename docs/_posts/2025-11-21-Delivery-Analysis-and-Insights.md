@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 ---
 
-This project analyzes delivery order data from Cincinnati over a 30-day period, spanning September 16 to October 14, 2022. The dataset contains 60,583 entries across 19 columns, covering order details, delivery timestamps, driver assignments, and grocery partner performance.
+[This project](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb) analyzes delivery order data from Cincinnati over a 30-day period, spanning September 16 to October 14, 2022. The dataset contains 60,583 entries across 19 columns, covering order details, delivery timestamps, driver assignments, and grocery partner performance.
 
 ## 🚨 Executive Summary
 
@@ -24,6 +24,8 @@ Our service is facing two critical challenges:
 1. **Restructure Driver Incentives** — make low-priced orders more attractive  
 2. **Partner Success Program** — deploy DashMart’s best practices across grocery partners  
 3. **Peak Hour Optimization** — boost driver supply from 19:00 to 00:00
+
+[To reproduce this on the dataset or a similar dataset, you can follow the Jupyter Notebook](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb)
 
 ---
 

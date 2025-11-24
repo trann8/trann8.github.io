@@ -7,6 +7,8 @@ tags:
   - logistic
   - customer experience
   - data analysis
+toc: true
+toc_sticky: true
 ---
 
 This project analyzes delivery order data from Cincinnati over a 30-day period, spanning September 16 to October 14, 2022. The dataset contains 60,583 entries across 19 columns, covering order details, delivery timestamps, driver assignments, and grocery partner performance.

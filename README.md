@@ -1,7 +1,7 @@
 # Hi there! 👋
 
 I’m Meg, a data enthusiast who loves turning raw numbers into clear business stories.  
-With experience in **forecasting, churn analysis, modeling** and more, I help teams make smarter decisions—one metric at a time.
+With experience in **forecasting, churn analysis, modeling** and more, I help teams make smarter decisions, one metric at a time.
 
 > “Data is not just information; it’s the narrative that drives strategy.” 
 

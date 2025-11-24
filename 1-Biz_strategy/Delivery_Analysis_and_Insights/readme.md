@@ -21,9 +21,3 @@
 🧰 Tool Used:
     Pandas for data cleaning, transformation, and exploratory analysis
     Seaborn for visualizing delivery patterns, delay distributions, and complaint trends
-
-📁 Repository Structure:
-    ├── data/                   # Raw datasets
-    ├── notebooks/              # Jupyter notebooks for analysis and visualization
-    ├── post/                   # Key project insights and takeaways
-    ├── README.md               # Project overview and business context

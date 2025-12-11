@@ -11,6 +11,8 @@ tags:
   - Tableau
   - Azure
   - Power Automate
+image: /assets/images/Tableau_dashboard.png
+description: "A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose performance declines and optimize supply chain allocation."
 toc: true
 toc_sticky: true
 ---
@@ -72,7 +74,7 @@ Narratives built for stakeholder
 The diagnostic revealed several critical findings:
 * **The Traffic Crisis:** While sales dropped **7.79%**, the daily order count dropped even sharper by **9.2%**. This indicated that the problem was **lost customer traffic**, not reduced spending power.
 * **Regional Disparity:** While the core market (Dhaka) softened by 8%, the **Sylhet region** crashed by **21%**.
-* **Strategy:** retention campaigns, traffic-driver promotions, weekly KPI monitoring.
+* **Strategy:** market audit, retention campaigns, traffic-driver promotions, weekly KPI monitoring.
 
 👉 [View Storyboard – Sales](https://public.tableau.com/views/Tran_Nguyen_5/Story1)  
 
@@ -81,6 +83,8 @@ The diagnostic revealed several critical findings:
 Deep-diving into Sylhet's inventory, I uncovered a massive structural shift in consumer behavior, termed the **"Coffee Ecosystem Collapse"**:
 * **Dead Stock:** In 2020, "Coffee Stirrers" were the #1 item. In 2021, they dropped to last place, with related items like K-Cups and Creamers falling by ~68%.
 * **Surge Demand:** Conversely, durable goods like "Dishware - Bowls" saw a **113% surge** in demand.
+* **Strategy:** imports, expedite home goods, inter-store transfers, weekly volatility reviews.
+
 
 👉 [View Storyboard – Supply](https://public.tableau.com/views/Tran_Nguyen_5/Story2)
 

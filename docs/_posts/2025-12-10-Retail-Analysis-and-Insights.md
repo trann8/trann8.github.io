@@ -1,6 +1,5 @@
 ---
-layout: post
-title: "Revitalizing Best Mart: End-to-End Data Engineering & Business Intelligence Strategy?"
+title: "Revitalizing Best Mart: End-to-End Data Engineering & Business Intelligence Strategy ?"
 categories:
   - Analytics
   - Business Intelligence
@@ -11,11 +10,13 @@ tags:
   - Tableau
   - Azure
   - Power Automate
-image: /assets/images/Tableau_dashboard.png
-description: "A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose performance declines and optimize supply chain allocation."
 toc: true
 toc_sticky: true
 ---
+
+ "A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose performance declines and optimize supply chain allocation."
+
+![Tableau dashboard](/assets/images/Tableau_dashboard.png)
 
 ## 📊 Executive Summary
 **Role:** Analytics Consultant  
@@ -28,7 +29,7 @@ In this project, I acted as a consultant for **Best Mart**, a multi-regional ret
 
 ---
 
-## Part 1: Data Architecture & Engineering
+## 🛠️ Part 1: Data Architecture & Engineering
 
 To move Best Mart from reactive problem-solving to proactive optimization, I designed a centralized data system using **Azure SQL Database**.
 
@@ -37,6 +38,7 @@ I moved the company's flat files to a structured **Star Schema** to support effi
 
 * **Fact Table:** `Transaction` (Sales revenue, quantities, payment methods)
 * **Dimension Tables:** `Store` (Regional data), `Product` (Categories, Suppliers), `Customer` (Demographics), `Payment` (Payment method, preffered bank)
+![Best Mart Relational Schema](/assets/images/Relational schema.png)
 
 **Entity Relationship Diagram (ERD):**
 ![Best Mart ERD](/assets/images/ERD.png)
@@ -50,11 +52,11 @@ One of the key operational bottlenecks was tracking product returns. I implement
 
 ---
 
-## Part 2: Diagnostic Analysis (Tableau)
+## 📈 Part 2:  Analytical Business Insights
 
 With the database live, I connected **Tableau** to the Azure SQL server to analyze the January 2021 performance crisis.
 
-### The Dashboard: Diagnosing the Decline
+### The Dashboard (Diagnostic)
 
 KPIs tracked:
 - YTD Sales  
@@ -63,13 +65,13 @@ KPIs tracked:
 - Payment Method Distribution  
 - Top Product Categories  
 
-👉 [**View the Interactive Dashboard on Tableau Public**](https://public.tableau.com/views/Tran_Nguyen_5/Dashboard1)
+👉 [View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/Tran_Nguyen_5/Dashboard1)
 
 ### The Storyboard: Tableau (Explanatory)
 Narratives built for stakeholder
 
 
- **Scenario 1 – Sales & Marketing**  
+- **Scenario 1 – Sales & Marketing**  
 
 The diagnostic revealed several critical findings:
 * **The Traffic Crisis:** While sales dropped **7.79%**, the daily order count dropped even sharper by **9.2%**. This indicated that the problem was **lost customer traffic**, not reduced spending power.
@@ -117,12 +119,6 @@ Based on the data, I proposed a two-pronged recovery strategy:
 * **Interactive Dashboard:** [Click here to view](https://public.tableau.com/views/Tran_Nguyen_5/Dashboard1)
 * **Story - Performance Review:** [Click here to view](https://public.tableau.com/views/Tran_Nguyen_5/Story1)
 * **Story - Supply Chain Deep Dive:** [Click here to view](https://public.tableau.com/views/Tran_Nguyen_5/Story2)
+* **Presentation:** [Click here to view](https://www.canva.com/design/DAG6zTa8rV0/4bKQYNPQMQyTP1EcTkFk8w/edit?utm_content=DAG6zTa8rV0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="[https://www.canva.com/design/DAG6zTa8rV0/4bKQYNPQMQyTP1EcTkFk8w/edit?utm_content=DAG6zTa8rV0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
 

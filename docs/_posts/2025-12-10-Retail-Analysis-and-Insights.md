@@ -14,7 +14,7 @@ toc: true
 toc_sticky: true
 ---
 
- "A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose performance declines and optimize supply chain allocation."
+A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose performance declines and optimize supply chain allocation.
 
 ![Tableau dashboard](/assets/images/Tableau_dashboard.png)
 

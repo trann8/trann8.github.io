@@ -11,3 +11,5 @@ With experience in **forecasting, churn analysis, modeling** and more, I help te
 |---|---|---|
 
 | **Projects** – Case studies from real business problems. | **Dashboards** – Interactive
+
+[My projects](https://trann8.github.io/)

@@ -26,7 +26,7 @@ Our service is facing two critical challenges:
 2. **Partner Success Program** — deploy DashMart’s best practices across grocery partners  
 3. **Peak Hour Optimization** — boost driver supply from 19:00 to 00:00
 
-[To reproduce this on the dataset or a similar dataset, you can follow the Jupyter Notebook](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb)
+👉[To reproduce this on the dataset or a similar dataset, you can follow the Jupyter Notebook](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb)
 
 ---
 

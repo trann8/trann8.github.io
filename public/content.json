@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Stock Analysis",
+      "description": "Place holder about stock analysis.",
+      "tags": [
+        "React",
+        "Deno",
+        "TypeScript",
+        "Rust",
+        "Web Assembly"
+      ],
+      "imageUrl": "/images/wip.svg",
+      "liveUrl": "https://mdsolarflare.github.io/taskman/",
+      "repoUrl": "https://github.com/mdsolarflare/taskman",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Churn Analysis",
+      "description": "Placeholder text about churn.",
+      "tags": [
+        "Kotlin",
+        "KMP",
+        "Android",
+        "iOS",
+        "Web?"
+      ],
+      "imageUrl": "/images/wip.svg",
+      "liveUrl": "https://www.imdb.com/title/tt10417836/",
+      "repoUrl": "https://github.com/mdsolarflare/lymph",
+      "date": "2026-06-01"
+    }
+  ]
+}

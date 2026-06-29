@@ -13,11 +13,11 @@ Pure client-side portfolio built with **SolidJS**, **Vite**, and **Tailwind CSS 
 # Install dependencies
 pnpm install
 
-# Dev server (port 3000)
-pnpm dev
-
 # Production build
 pnpm build
+
+# Run a local dev server
+pnpm dev
 
 # Preview production build locally
 pnpm preview

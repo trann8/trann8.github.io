@@ -93,7 +93,7 @@ export default function App() {
 
           {/* Right: Contact */}
           <a
-            href="mailto:hello@example.com"
+            href="mailto:nn.tutran@gmail.com"
             class="rounded-md bg-accent px-4 py-2 text-base font-medium text-white transition-opacity hover:opacity-90"
           >
             Contact
@@ -114,7 +114,7 @@ export default function App() {
             </span>
           </h1>
           <p class="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-            Template text.
+            New template text.
           </p>
 
           {/* Social Links */}
@@ -187,7 +187,8 @@ export default function App() {
             </div>
           )}
 
-          {content()?.projects && content()!.projects.length === 0 &&
+          {content()?.projects &&
+            content()!.projects.length === 0 &&
             !error() && <p class="text-muted">No projects yet.</p>}
         </section>
 
@@ -203,9 +204,8 @@ export default function App() {
             </p>
             <p>
               I'm a{" "}
-              <strong class="text-foreground font-semibold">
-                competitor
-              </strong>. I am ready for the heat of a startup. No time for{" "}
+              <strong class="text-foreground font-semibold">competitor</strong>.
+              I am ready for the heat of a startup. No time for{" "}
               <span class="line-through decoration-muted/50">
                 corporate slop
               </span>{" "}
@@ -220,9 +220,7 @@ export default function App() {
             </p>
             <p>
               - a self-proclaimed{" "}
-              <em class="italic text-foreground">
-                BOSS QUEEN
-              </em>
+              <em class="italic text-foreground">BOSS QUEEN</em>
             </p>
           </div>
         </section>

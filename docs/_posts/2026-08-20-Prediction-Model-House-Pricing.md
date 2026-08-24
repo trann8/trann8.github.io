@@ -5,11 +5,11 @@ categories:
   - Machine Learning
   - Prediction Model
 tags:
-  - **Python** 
-  - **pandas / numpy** — Data manipulation
-  - **scikit-learn** — Preprocessing pipelines, model selection, evaluation
-  - **XGBoost** — Gradient boosting regressor
-  - **seaborn / matplotlib** — Visualization
+  - Python
+  - pandas / numpy : Data manipulation
+  - scikit-learn:  Preprocessing pipelines, model selection, evaluation
+  - XGBoost: Gradient boosting regressor
+  - seaborn / matplotlib: Visualization
 toc: true
 toc_sticky: true
 ---

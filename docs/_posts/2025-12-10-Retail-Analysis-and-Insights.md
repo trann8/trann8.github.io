@@ -12,6 +12,12 @@ tags:
   - Power Automate
 toc: true
 toc_sticky: true
+header:
+  image: /assets/images/teaser2.png
+  caption: "Data Engineering & Business Intelligence"
+  overlay_filter: "rgba(0, 0, 0, 0.3)"
+  overlay_link: "https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Retail-Analysis-and-Insights"
+  alt_text: "Best Mart retail analytics dashboard"
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">

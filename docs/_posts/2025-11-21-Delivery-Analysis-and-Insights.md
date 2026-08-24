@@ -1,5 +1,5 @@
 ---
-title: "Delivery Performance Deep Dive: What’s Driving Customer Dissatisfaction?"
+title: "Delivery Performance Deep Dive: What's Driving Customer Dissatisfaction?"
 categories:
   - Analytics
 tags:
@@ -10,6 +10,12 @@ tags:
   - Python
 toc: true
 toc_sticky: true
+header:
+  image: /assets/images/teaser2.png
+  caption: "Delivery Analytics & Customer Insights"
+  overlay_filter: "rgba(0, 0, 0, 0.3)"
+  overlay_link: "https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights"
+  alt_text: "Delivery performance analysis"
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">

@@ -13,5 +13,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-algolia"
+  # gem "jekyll-algolia"  # Not on GitHub Pages whitelist — comment out if building locally
 end

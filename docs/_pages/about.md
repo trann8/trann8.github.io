@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "About Me, Jennie & Kimmy"
+title: "About Me, Jensen & Kimi"
 permalink: /about/
 author_profile: true
 classes: wide
@@ -10,7 +10,7 @@ Hi, I’m Tran (Meg) a lifelong learner with over 10 years of experience in busi
 
 This blog is where I document my journey, from SQL queries to Tableau dashboards, from business strategy to data storytelling. It’s a space for sharing what I learn, building reusable workflows, and connecting with others who love turning data into impact.
 
-Outside of work, I’m mum to two rescued cats, Jennie and Kimmy 🐾. They were strays living on abandoned land behind my house, barely a year old when I first met them (Jennie is a bit older than Kimmy). I started feeding them, and we bonded quickly. When my neighbor planned to send Kimmy to a shelter, I stepped in to adopt her and soon reunited her with Jennie. Now they’re part of my home, my heart, and sometimes even my data metaphors.
+Outside of work, I’m mum to two rescued cats, Jensen and Kimi 🐾. They were strays living on abandoned land behind my house, barely a year old when I first met them (Jensen is a bit older than Kimi). I started feeding them, and we bonded quickly. When my neighbor planned to send Kimi to a shelter, I stepped in to adopt her and soon reunited her with Jensen. Now they’re part of my home, my heart, and sometimes even my data metaphors.
 
-![Jennie and Kimmy](/assets/images/JennieKimmy.png)
+![Jensen and Kimi](/assets/images/JennieKimmy.png)
 

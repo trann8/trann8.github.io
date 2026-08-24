@@ -12,7 +12,13 @@ toc: true
 toc_sticky: true
 ---
 
-[This project](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb) analyzes delivery order data from Cincinnati over a 30-day period, spanning September 16 to October 14, 2022. The dataset contains 60,583 entries across 19 columns, covering order details, delivery timestamps, driver assignments, and grocery partner performance.
+[This project](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb) 
+
+## ⭐ Situation
+Customer dissatisfaction was rising in Cincinnati despite stable order volume. Complaints centered on late deliveries and incorrect items, especially during evening peak hours. Leadership needed a clear, data‑driven explanation of what was causing these failures across drivers, merchants, and order characteristics.
+
+## 🎯Task
+I was responsible for analyzing 60,583 delivery records to identify the root causes of late arrivals and order inaccuracies, quantify their impact, and recommend operational strategies that could improve reliability and customer experience.
 
 ## 🚨 Executive Summary
 

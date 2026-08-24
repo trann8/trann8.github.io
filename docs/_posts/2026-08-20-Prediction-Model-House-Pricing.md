@@ -13,7 +13,7 @@ tags:
 toc: true
 toc_sticky: true
 header:
-  image: /assets/images/teaser2.png
+  image: assets/images/teaser2.png
   caption: "Machine Learning for Real Estate"
   overlay_filter: "rgba(0, 0, 0, 0.3)"
   alt_text: "House price prediction with machine learning"
@@ -76,7 +76,7 @@ Before modeling, I thoroughly explored the data to understand patterns and distr
 - **Sale Price Distribution**: The raw sale prices showed significant right-skewness. A log-transformation (`log1p`) normalized the distribution, making it more suitable for regression modeling.
 - **Correlation Analysis**: Heatmaps revealed the strongest predictors of sale price, including `OverallQual` (overall material/finish quality), `GrLivArea` (above-ground living area), and `GarageCars` (garage capacity).
 
-![Heatmap sale price prediction](/assets/images/heatmap_saleprice.png)
+![Heatmap sale price prediction](assets/images/hourly_heatmap.png)
 
 - **Missing Data Audit**: Several features had missing values — ranging from minor gaps (`Electrical`: 0.07%) to heavy sparsity (`PoolQC`: 99.5%). Each was handled strategically based on the nature of the feature.
 
@@ -129,7 +129,7 @@ The winning XGBoost pipeline was retrained on the full training + validation set
 4. **Above-ground Living Area** — directly tied to usable space
 5. **Neighborhood** — location premium captured through encoding
 
-![Top predictive features by importance](/assets/images/top_predictive_features_by_importance.png)
+![Top predictive features by importance](assets/images/top_items_bubble_chart.png)
 
 ### 6️⃣ Prediction Pipeline
 

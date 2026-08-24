@@ -14,15 +14,29 @@ toc: true
 toc_sticky: true
 ---
 
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
+  <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🐍 Python</span>
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📊 pandas / numpy</span>
+  <span style="background: #fff3e0; color: #e65100; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🤖 scikit-learn</span>
+  <span style="background: #fce4ec; color: #c62828; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">⚡ XGBoost</span>
+  <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📈 seaborn / matplotlib</span>
+</div>
+
+<div style="background: #f8f9fa; border-left: 4px solid #1976d2; padding: 16px 20px; border-radius: 0 8px 8px 0; margin-bottom: 28px;">
+  <p style="margin: 0; font-size: 0.95em; color: #555;">
+    📂 <strong>Source Code:</strong> <a href="https://github.com/trann8/House-Price" style="color: #1976d2; text-decoration: none; font-weight: 500;">View on GitHub →</a>
+  </p>
+</div>
+
 # Predicting House Prices with Machine Learning: A Data-Driven Approach
 
-## Situation
+## 🏠 Situation
 
 The real estate market is one of the most valuable and complex markets in the world. For home buyers, sellers, and investors, accurately estimating a property's value is critical — yet traditional appraisal methods are often slow, subjective, and expensive. The challenge? House prices depend on dozens of interconnected factors: location, size, age, quality of materials, neighborhood characteristics, and more.
 
 This project tackles that challenge head-on using the **Ames Iowa Housing dataset** from Kaggle's "House Prices — Advanced Regression Techniques" competition. With 1,460 training samples and **79 predictor variables**, this dataset is widely regarded as a benchmark for regression modeling in real estate analytics.
 
-## Task
+## 🎯 Task
 
 Build a machine learning model that can accurately predict the sale price of a house given its features. The goal was to:
 
@@ -33,9 +47,9 @@ Build a machine learning model that can accurately predict the sale price of a h
 
 The model's performance is measured by **Root Mean Squared Error (RMSE)** on the log-transformed sale price — the same metric used in the Kaggle competition. Lower RMSE means more accurate predictions.
 
-## Action
+## 🚀 Action
 
-### 1. Exploratory Data Analysis
+### 1️⃣ Exploratory Data Analysis
 
 Before modeling, I thoroughly explored the data to understand patterns and distributions:
 
@@ -46,7 +60,7 @@ Before modeling, I thoroughly explored the data to understand patterns and distr
 
 - **Missing Data Audit**: Several features had missing values — ranging from minor gaps (`Electrical`: 0.07%) to heavy sparsity (`PoolQC`: 99.5%). Each was handled strategically based on the nature of the feature.
 
-### 2. Feature Engineering
+### 2️⃣ Feature Engineering
 
 Raw data rarely tells the full story. I created new composite features that capture more meaningful signals:
 
@@ -60,7 +74,7 @@ Raw data rarely tells the full story. I created new composite features that capt
 
 Redundant source columns were dropped to avoid multicollinearity.
 
-### 3. Data Preprocessing Pipeline
+### 3️⃣ Data Preprocessing Pipeline
 
 A robust preprocessing pipeline handles both numeric and categorical features automatically:
 
@@ -69,7 +83,7 @@ A robust preprocessing pipeline handles both numeric and categorical features au
 
 This pipeline is built with `scikit-learn`'s `ColumnTransformer`, ensuring consistent transformation across training and prediction.
 
-### 4. Model Training & Hyperparameter Tuning
+### 4️⃣ Model Training & Hyperparameter Tuning
 
 Two powerful regression algorithms were compared:
 
@@ -85,7 +99,7 @@ Both models were tuned using **Randomized Search with 5-fold cross-validation**,
 
 The **XGBoost model outperformed Random Forest** on validation RMSE and was selected as the final model.
 
-### 5. Final Model & Feature Importance
+### 5️⃣ Final Model & Feature Importance
 
 The winning XGBoost pipeline was retrained on the full training + validation set for maximum data utilization. The top predictive features by importance include:
 
@@ -97,7 +111,7 @@ The winning XGBoost pipeline was retrained on the full training + validation set
 
 ![Top predictive features by importance](/assets/images/top_predictive_features_by_importance.png)
 
-### 6. Prediction Pipeline
+### 6️⃣ Prediction Pipeline
 
 For new houses, the model:
 1. Applies the same feature engineering transformations
@@ -105,15 +119,15 @@ For new houses, the model:
 3. Generates a log-scale price prediction via XGBoost
 4. Inverts the log transformation (`expm1`) to return a real-world dollar value
 
-## Result
+## 📊 Result
 
-### Model Performance
+### 📈 Model Performance
 
 - The **XGBoost model achieved competitive RMSE** on the held-out validation set, demonstrating strong generalization
 - Feature importance analysis confirmed that domain intuition (quality and size matter most) aligns with what the model learned from data
 - The full pipeline — from raw CSV to dollar prediction — is automated and reproducible
 
-### Business Value
+### 💼 Business Value
 
 This model demonstrates how machine learning can:
 
@@ -121,7 +135,7 @@ This model demonstrates how machine learning can:
 - **Surface key value drivers** that inform renovation decisions, pricing strategy, and investment analysis
 - **Scale across markets** — the same methodology applies to any housing dataset with structured features
 
-### Key Takeaways
+### 💡 Key Takeaways
 
 1. **Feature engineering matters**: Composite features like `TotalSF` and `HouseAge` capture signals that raw columns miss
 2. **Log-transform skewed targets**: Normalizing the target variable improves model calibration
@@ -130,4 +144,4 @@ This model demonstrates how machine learning can:
 
 ---
 
-*This project was built using Python, scikit-learn, XGBoost, and pandas. The full notebook and demo code are available [on GitHub](#(https://github.com/trann8/House-Price/blob/main/ML%20prediction.ipynb)).*
+*This project was built using Python, scikit-learn, XGBoost, and pandas. The full notebook and demo code are available [on GitHub](https://github.com/trann8/House-Price/blob/main/ML%20prediction.ipynb).*

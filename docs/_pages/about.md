@@ -2,7 +2,7 @@
 layout: single
 title: "About Me, Jensen & Kimi"
 permalink: /about/
-author_profile: true
+author_profile: false
 classes: wide
 header:
   overlay_color: "#667eea"
@@ -20,74 +20,71 @@ header:
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- HERO BANNER — Full-width gradient with profile image        -->
+<!-- HERO BANNER — Compact gradient with profile image           -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 <div style="
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
   color: white;
-  padding: 100px 40px 80px;
-  border-radius: 0 0 30px 30px;
-  margin: -2rem -2rem 3rem -2rem;
+  padding: 40px 24px 32px;
+  border-radius: 16px;
+  margin: 0 0 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 ">
   <!-- Decorative background circles -->
-  <div style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.08); border-radius: 50%;"></div>
-  <div style="position: absolute; bottom: -30px; right: -30px; width: 150px; height: 150px; background: rgba(255,255,255,0.06); border-radius: 50%;"></div>
-  <div style="position: absolute; top: 30%; right: 10%; width: 100px; height: 100px; background: rgba(255,255,255,0.05); border-radius: 50%;"></div>
+  <div style="position: absolute; top: -30px; left: -30px; width: 100px; height: 100px; background: rgba(255,255,255,0.08); border-radius: 50%;"></div>
+  <div style="position: absolute; bottom: -20px; right: -20px; width: 80px; height: 80px; background: rgba(255,255,255,0.06); border-radius: 50%;"></div>
   
   <div style="position: relative; z-index: 1;">
     <!-- Profile Avatar -->
     <div style="
-      width: 140px;
-      height: 140px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
-      border: 5px solid rgba(255,255,255,0.5);
-      margin: 0 auto 24px;
+      border: 3px solid rgba(255,255,255,0.5);
+      margin: 0 auto 16px;
       overflow: hidden;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     ">
       <img src="/assets/images/bio_image.png" alt="Meg Nguyen" style="width: 100%; height: 100%; object-fit: cover;" />
     </div>
     
     <h1 style="
-      margin: 0 0 12px 0;
-      font-size: 3.5em;
+      margin: 0 0 6px 0;
+      font-size: 2em;
       font-weight: 700;
-      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-      letter-spacing: -1px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.2);
     ">👋 Hi, I'm Tran (Meg)</h1>
     
     <p style="
-      margin: 0 0 20px 0;
-      font-size: 1.4em;
-      opacity: 0.95;
+      margin: 0 0 14px 0;
+      font-size: 1em;
+      opacity: 0.9;
       font-weight: 300;
-      letter-spacing: 0.5px;
     ">Business Strategist → Data Analyst</p>
     
     <!-- Quick Stats -->
     <div style="
       display: flex;
       justify-content: center;
-      gap: 40px;
-      margin-top: 30px;
+      gap: 24px;
+      margin-top: 16px;
       flex-wrap: wrap;
     ">
       <div style="text-align: center;">
-        <div style="font-size: 2em; font-weight: 700;">8+</div>
-        <div style="font-size: 0.9em; opacity: 0.8;">Years Experience</div>
+        <div style="font-size: 1.5em; font-weight: 700;">8+</div>
+        <div style="font-size: 0.8em; opacity: 0.8;">Years Exp.</div>
       </div>
-      <div style="width: 1px; height: 40px; background: rgba(255,255,255,0.3);"></div>
+      <div style="width: 1px; height: 30px; background: rgba(255,255,255,0.3);"></div>
       <div style="text-align: center;">
-        <div style="font-size: 2em; font-weight: 700;">MSBA</div>
-        <div style="font-size: 0.9em; opacity: 0.8;">UW Seattle</div>
+        <div style="font-size: 1.5em; font-weight: 700;">MSBA</div>
+        <div style="font-size: 0.8em; opacity: 0.8;">UW Seattle</div>
       </div>
-      <div style="width: 1px; height: 40px; background: rgba(255,255,255,0.3);"></div>
+      <div style="width: 1px; height: 30px; background: rgba(255,255,255,0.3);"></div>
       <div style="text-align: center;">
-        <div style="font-size: 2em; font-weight: 700;">2 🐾</div>
-        <div style="font-size: 0.9em; opacity: 0.8;">Rescued Cats</div>
+        <div style="font-size: 1.5em; font-weight: 700;">2 🐾</div>
+        <div style="font-size: 0.8em; opacity: 0.8;">Cats</div>
       </div>
     </div>
   </div>
@@ -113,45 +110,45 @@ header:
 <!-- Experience Cards -->
 <div style="
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 1.5rem 0;
 ">
   <div style="
     background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
-    padding: 24px;
-    border-radius: 16px;
-    border-left: 5px solid #1976d2;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 16px;
+    border-radius: 12px;
+    border-left: 4px solid #1976d2;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
     transition: all 0.3s ease;
   ">
-    <div style="font-size: 2em; margin-bottom: 8px;">🏨</div>
-    <strong style="font-size: 1.2em; color: #1a1a2e;">Hospitality</strong>
-    <p style="color: #666; margin: 8px 0 0 0;">IHG · Sofitel · Radisson</p>
+    <div style="font-size: 1.5em; margin-bottom: 6px;">🏨</div>
+    <strong style="font-size: 1em; color: #1a1a2e;">Hospitality</strong>
+    <p style="color: #666; margin: 6px 0 0 0; font-size: 0.9em;">IHG · Sofitel · Radisson</p>
   </div>
   <div style="
     background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
-    padding: 24px;
-    border-radius: 16px;
-    border-left: 5px solid #2e7d32;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 16px;
+    border-radius: 12px;
+    border-left: 4px solid #2e7d32;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
     transition: all 0.3s ease;
   ">
-    <div style="font-size: 2em; margin-bottom: 8px;">🚀</div>
-    <strong style="font-size: 1.2em; color: #1a1a2e;">Tech Startups</strong>
-    <p style="color: #666; margin: 8px 0 0 0;">Traveloka · Grab</p>
+    <div style="font-size: 1.5em; margin-bottom: 6px;">🚀</div>
+    <strong style="font-size: 1em; color: #1a1a2e;">Tech Startups</strong>
+    <p style="color: #666; margin: 6px 0 0 0; font-size: 0.9em;">Traveloka · Grab</p>
   </div>
   <div style="
     background: linear-gradient(135deg, #fff8f0 0%, #ffffff 100%);
-    padding: 24px;
-    border-radius: 16px;
-    border-left: 5px solid #e65100;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 16px;
+    border-radius: 12px;
+    border-left: 4px solid #e65100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
     transition: all 0.3s ease;
   ">
-    <div style="font-size: 2em; margin-bottom: 8px;">📊</div>
-    <strong style="font-size: 1.2em; color: #1a1a2e;">MSBA Program</strong>
-    <p style="color: #666; margin: 8px 0 0 0;">University of Washington</p>
+    <div style="font-size: 1.5em; margin-bottom: 6px;">📊</div>
+    <strong style="font-size: 1em; color: #1a1a2e;">MSBA Program</strong>
+    <p style="color: #666; margin: 6px 0 0 0; font-size: 0.9em;">University of Washington</p>
   </div>
 </div>
 

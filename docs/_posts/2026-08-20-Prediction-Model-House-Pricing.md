@@ -12,6 +12,12 @@ tags:
   - seaborn / matplotlib
 toc: true
 toc_sticky: true
+header:
+  image: /assets/images/teaser2.png
+  caption: "Machine Learning for Real Estate"
+  overlay_filter: "rgba(0, 0, 0, 0.3)"
+  overlay_link: "https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Retail-Analysis-and-Insights"
+  alt_text: "House price prediction with machine learning"
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">

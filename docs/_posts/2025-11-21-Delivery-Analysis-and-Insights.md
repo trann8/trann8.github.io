@@ -15,8 +15,9 @@ header:
   caption: "Delivery Analytics & Customer Insights"
   overlay_filter: "rgba(0, 0, 0, 0.3)"
   alt_text: "Delivery performance analysis"
-date: 2025-11-21 00:00:00 +0000
-last_modified_at: "2026-08-24"
+last_modified_at:
+  date: "2026-08-24"
+  label: "Updated"
 ---
 
 <!-- ═══ Post Preview ═══ -->

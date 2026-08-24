@@ -17,8 +17,9 @@ header:
   caption: "Data Engineering & Business Intelligence"
   overlay_filter: "rgba(0, 0, 0, 0.3)"
   alt_text: "Best Mart retail analytics dashboard"
-date: 2025-12-10 00:00:00 +0000
-last_modified_at: "2026-08-24"
+last_modified_at:
+  date: "2026-08-24"
+  label: "Updated"
 ---
 
 <!-- ═══ Post Preview ═══ -->

@@ -12,7 +12,21 @@ toc: true
 toc_sticky: true
 ---
 
-[This project](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb) 
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
+  <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🐍 Python</span>
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📦 Delivery</span>
+  <span style="background: #fff3e0; color: #e65100; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🚚 Logistics</span>
+  <span style="background: #fce4ec; color: #c62828; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🧑‍🤝‍🧑 Customer Experience</span>
+  <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📊 Data Analysis</span>
+</div>
+
+<div style="background: #f8f9fa; border-left: 4px solid #1976d2; padding: 16px 20px; border-radius: 0 8px 8px 0; margin-bottom: 28px;">
+  <p style="margin: 0; font-size: 0.95em; color: #555;">
+    📂 <strong>Source Code:</strong> <a href="https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights" style="color: #1976d2; text-decoration: none; font-weight: 500;">View on GitHub →</a>
+  </p>
+</div>
+
+## ⭐ Situation 
 
 ## ⭐ Situation
 Customer dissatisfaction was rising in Cincinnati despite stable order volume. Complaints centered on late deliveries and incorrect items, especially during evening peak hours. Leadership needed a clear, data‑driven explanation of what was causing these failures across drivers, merchants, and order characteristics.

@@ -28,8 +28,6 @@ toc_sticky: true
   </p>
 </div>
 
-# Predicting House Prices with Machine Learning: A Data-Driven Approach
-
 ## 🏠 Situation
 
 The real estate market is one of the most valuable and complex markets in the world. For home buyers, sellers, and investors, accurately estimating a property's value is critical — yet traditional appraisal methods are often slow, subjective, and expensive. The challenge? House prices depend on dozens of interconnected factors: location, size, age, quality of materials, neighborhood characteristics, and more.

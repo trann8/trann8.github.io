@@ -4,91 +4,7 @@ title: "About Me, Jensen & Kimi"
 permalink: /about/
 author_profile: false
 classes: wide
-header:
-  overlay_color: "#667eea"
-  overlay_filter: "rgba(0, 0, 0, 0.3)"
-  actions:
-    - label: "📧 Email"
-      url: "mailto:nn.tutran@gmail.com"
-      target: "_blank"
-    - label: "💼 LinkedIn"
-      url: "https://www.linkedin.com/in/meg-nguyen-56613335/"
-      target: "_blank"
-    - label: "🐙 GitHub"
-      url: "https://github.com/trann8"
-      target: "_blank"
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- HERO BANNER — Compact gradient with profile image           -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-<div style="
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-  color: white;
-  padding: 40px 24px 32px;
-  border-radius: 16px;
-  margin: 0 0 2rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-">
-  <!-- Decorative background circles -->
-  <div style="position: absolute; top: -30px; left: -30px; width: 100px; height: 100px; background: rgba(255,255,255,0.08); border-radius: 50%;"></div>
-  <div style="position: absolute; bottom: -20px; right: -20px; width: 80px; height: 80px; background: rgba(255,255,255,0.06); border-radius: 50%;"></div>
-  
-  <div style="position: relative; z-index: 1;">
-    <!-- Profile Avatar -->
-    <div style="
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      border: 3px solid rgba(255,255,255,0.5);
-      margin: 0 auto 16px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    ">
-      <img src="/assets/images/bio_image.png" alt="Meg Nguyen" style="width: 100%; height: 100%; object-fit: cover;" />
-    </div>
-    
-    <h1 style="
-      margin: 0 0 6px 0;
-      font-size: 2em;
-      font-weight: 700;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    ">👋 Hi, I'm Tran (Meg)</h1>
-    
-    <p style="
-      margin: 0 0 14px 0;
-      font-size: 1em;
-      opacity: 0.9;
-      font-weight: 300;
-    ">Business Strategist → Data Analyst</p>
-    
-    <!-- Quick Stats -->
-    <div style="
-      display: flex;
-      justify-content: center;
-      gap: 24px;
-      margin-top: 16px;
-      flex-wrap: wrap;
-    ">
-      <div style="text-align: center;">
-        <div style="font-size: 1.5em; font-weight: 700;">8+</div>
-        <div style="font-size: 0.8em; opacity: 0.8;">Years Exp.</div>
-      </div>
-      <div style="width: 1px; height: 30px; background: rgba(255,255,255,0.3);"></div>
-      <div style="text-align: center;">
-        <div style="font-size: 1.5em; font-weight: 700;">MSBA</div>
-        <div style="font-size: 0.8em; opacity: 0.8;">UW Seattle</div>
-      </div>
-      <div style="width: 1px; height: 30px; background: rgba(255,255,255,0.3);"></div>
-      <div style="text-align: center;">
-        <div style="font-size: 1.5em; font-weight: 700;">2 🐾</div>
-        <div style="font-size: 0.8em; opacity: 0.8;">Cats</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SECTION: Who I Am                                           -->
@@ -104,7 +20,7 @@ header:
 ">🎓 Who I Am</h2>
 
 <p style="font-size: 1.15em; line-height: 1.8; color: #444;">
-  I'm a lifelong learner with <strong>over 8 years of experience</strong> in business development and account management. I've helped drive revenue growth and build lasting partnerships across leading hospitality brands and high-growth tech startups. Now, I'm pursuing an <strong>MSBA at University of Washington</strong> to deepen my data analytics skills and apply data-driven insights to solve complex business challenges.
+  I'm a lifelong learner with <strong>over 8 years of experience</strong> in business development and account management. I've helped drive revenue growth and build lasting partnerships across:
 </p>
 
 <!-- Experience Cards -->
@@ -151,6 +67,10 @@ header:
     <p style="color: #666; margin: 6px 0 0 0; font-size: 0.9em;">University of Washington</p>
   </div>
 </div>
+
+<p style="font-size: 1.15em; line-height: 1.8; color: #444;">
+  Now, I'm pursuing an <strong>MSBA at University of Washington</strong> to deepen my data analytics skills and apply data-driven insights to solve complex business challenges.
+</p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SECTION: This Blog                                          -->
@@ -287,4 +207,3 @@ header:
     ">🐙 GitHub</a>
   </div>
 </div>
-

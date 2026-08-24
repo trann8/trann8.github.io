@@ -1,7 +1,135 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: default
 ---
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- HERO SECTION                                                -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div style="
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  color: white;
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+">
+  <div style="position: absolute; top: -50px; left: -50px; width: 150px; height: 150px; background: rgba(255,255,255,0.08); border-radius: 50%;"></div>
+  <div style="position: absolute; bottom: -30px; right: -30px; width: 100px; height: 100px; background: rgba(255,255,255,0.06); border-radius: 50%;"></div>
+  
+  <div style="position: relative; z-index: 1;">
+    <h1 style="font-size: 2.5em; margin: 0 0 12px 0; font-weight: 700;">📊 My Data Journey</h1>
+    <p style="font-size: 1.2em; opacity: 0.95; margin: 0 0 24px 0;">Turning raw data into meaningful stories</p>
+    <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+      <a href="/posts/" style="
+        background: rgba(255,255,255,0.2);
+        color: white;
+        padding: 12px 28px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      ">📖 Read Blog</a>
+      <a href="/about/" style="
+        background: rgba(255,255,255,0.2);
+        color: white;
+        padding: 12px 28px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      ">👋 About Me</a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- FEATURED PROJECTS                                           -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="featured-projects">
+  <h2>🔥 Featured Projects</h2>
+  <div class="projects-grid">
+    
+    <div class="project-card">
+      <div style="
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+      ">🏠</div>
+      <div class="project-content">
+        <h3>Predicting House Prices with ML</h3>
+        <p>Building an XGBoost model to predict house prices using 79 features and 1,460 samples — from EDA to production pipeline.</p>
+        <div class="project-tags">
+          <span>Python</span>
+          <span>XGBoost</span>
+          <span>scikit-learn</span>
+        </div>
+        <div style="margin-top: 16px;">
+          <a href="/2026/08/20/Prediction-Model-House-Pricing/" class="read-more">Read more</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <div style="
+        background: linear-gradient(135deg, #2e7d32 0%, #43a047 100%);
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+      ">🛒</div>
+      <div class="project-content">
+        <h3>Best Mart Retail Analytics</h3>
+        <p>Full-stack analytics with Azure SQL, Power Automate, and Tableau to diagnose a 7.79% YoY sales decline across 7 regions.</p>
+        <div class="project-tags">
+          <span>SQL</span>
+          <span>Tableau</span>
+          <span>Azure</span>
+        </div>
+        <div style="margin-top: 16px;">
+          <a href="/2025/12/10/Retail-Analysis-and-Insights/" class="read-more">Read more</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <div style="
+        background: linear-gradient(135deg, #e65100 0%, #f57c00 100%);
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+      ">🚚</div>
+      <div class="project-content">
+        <h3>Delivery Performance Deep Dive</h3>
+        <p>Analysis of 60,583 delivery records revealing critical insights about driver incentives, merchant reliability, and peak hours.</p>
+        <div class="project-tags">
+          <span>Python</span>
+          <span>Analytics</span>
+          <span>Logistics</span>
+        </div>
+        <div style="margin-top: 16px;">
+          <a href="/2025/11/21/Delivery-Analysis-and-Insights/" class="read-more">Read more</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- LATEST POSTS                                                -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div style="margin-top: 3rem;">
+  <h2 style="text-align: center; margin-bottom: 2rem;">📝 Latest Posts</h2>
+  {{ content }}
+</div>
+
+<!-- Include custom JavaScript -->
+<script src="/assets/js/main.js"></script>

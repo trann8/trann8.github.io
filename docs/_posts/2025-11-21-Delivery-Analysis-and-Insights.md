@@ -14,9 +14,25 @@ header:
   image: /assets/images/teaser2.png
   caption: "Delivery Analytics & Customer Insights"
   overlay_filter: "rgba(0, 0, 0, 0.3)"
-  overlay_link: "https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights"
   alt_text: "Delivery performance analysis"
+last_modified_at:
+  date: "2026-08-24"
+  label: "Updated"
 ---
+
+<!-- ═══ Post Preview ═══ -->
+<div style="
+  background: linear-gradient(135deg, #f0f4ff 0%, #faf5ff 100%);
+  border-left: 4px solid #667eea;
+  padding: 20px 24px;
+  border-radius: 0 12px 12px 0;
+  margin-bottom: 24px;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #444;
+">
+  🚚 <strong>Quick Summary:</strong> Analyzing 60,583 delivery records to uncover the root causes of late arrivals and order inaccuracies — revealing critical insights about driver incentives, merchant reliability, and peak hour optimization.
+</div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
   <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🐍 Python</span>

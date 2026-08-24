@@ -16,9 +16,25 @@ header:
   image: /assets/images/teaser2.png
   caption: "Data Engineering & Business Intelligence"
   overlay_filter: "rgba(0, 0, 0, 0.3)"
-  overlay_link: "https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Retail-Analysis-and-Insights"
   alt_text: "Best Mart retail analytics dashboard"
+last_modified_at:
+  date: "2026-08-24"
+  label: "Updated"
 ---
+
+<!-- ═══ Post Preview ═══ -->
+<div style="
+  background: linear-gradient(135deg, #f0f4ff 0%, #faf5ff 100%);
+  border-left: 4px solid #667eea;
+  padding: 20px 24px;
+  border-radius: 0 12px 12px 0;
+  margin-bottom: 24px;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #444;
+">
+  🛒 <strong>Quick Summary:</strong> A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose a 7.79% YoY sales decline and optimize supply chain allocation across 7 regions.
+</div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
   <span style="background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🗄️ SQL</span>

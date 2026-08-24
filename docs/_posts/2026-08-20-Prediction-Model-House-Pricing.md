@@ -27,7 +27,7 @@ toc_sticky: true
     <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📈 seaborn / matplotlib</span>
   </div>
   <div style="font-size: 1.05em; line-height: 1.7; color: #444;">
-    🏠 <strong>Building an XGBoost model to predict house prices using 79 features and 1,460 samples — from exploratory data analysis through feature engineering to a production-ready prediction pipeline.</strong>
+    <strong>Building an XGBoost model to predict house prices using 79 features and 1,460 samples — from exploratory data analysis through feature engineering to a production-ready prediction pipeline.</strong>
   </div>
 </div>
 
@@ -63,7 +63,7 @@ Before modeling, I thoroughly explored the data to understand patterns and distr
 - **Sale Price Distribution**: The raw sale prices showed significant right-skewness. A log-transformation (`log1p`) normalized the distribution, making it more suitable for regression modeling.
 - **Correlation Analysis**: Heatmaps revealed the strongest predictors of sale price, including `OverallQual` (overall material/finish quality), `GrLivArea` (above-ground living area), and `GarageCars` (garage capacity).
 
-![Heatmap sale price prediction](assets/images/hourly_heatmap.png)
+![Heatmap sale price prediction](assets/images/heatmap_sale_prediction.png)
 
 - **Missing Data Audit**: Several features had missing values — ranging from minor gaps (`Electrical`: 0.07%) to heavy sparsity (`PoolQC`: 99.5%). Each was handled strategically based on the nature of the feature.
 
@@ -116,7 +116,7 @@ The winning XGBoost pipeline was retrained on the full training + validation set
 4. **Above-ground Living Area** — directly tied to usable space
 5. **Neighborhood** — location premium captured through encoding
 
-![Top predictive features by importance](assets/images/top_items_bubble_chart.png)
+![Top predictive features by importance](assets/images/output.png)
 
 ### 6️⃣ Prediction Pipeline
 

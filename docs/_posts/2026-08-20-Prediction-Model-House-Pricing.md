@@ -12,36 +12,23 @@ tags:
   - seaborn / matplotlib
 toc: true
 toc_sticky: true
-header:
-  image: assets/images/teaser2.png
-  caption: "Machine Learning for Real Estate"
-  overlay_filter: "rgba(0, 0, 0, 0.3)"
-  alt_text: "House price prediction with machine learning"
-last_modified_at:
-  date: "2026-08-24"
-  label: "Updated"
 ---
 
-<!-- ═══ Post Preview ═══ -->
 <div style="
-  background: linear-gradient(135deg, #f0f4ff 0%, #faf5ff 100%);
-  border-left: 4px solid #667eea;
-  padding: 20px 24px;
-  border-radius: 0 12px 12px 0;
   margin-bottom: 24px;
-  font-size: 1.05em;
-  line-height: 1.7;
-  color: #444;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e9ecef;
 ">
-  🏠 <strong>Quick Summary:</strong> Building an XGBoost model to predict house prices using 79 features and 1,460 samples — from exploratory data analysis through feature engineering to a production-ready prediction pipeline.
-</div>
-
-<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
-  <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🐍 Python</span>
-  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📊 pandas / numpy</span>
-  <span style="background: #fff3e0; color: #e65100; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🤖 scikit-learn</span>
-  <span style="background: #fce4ec; color: #c62828; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">⚡ XGBoost</span>
-  <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📈 seaborn / matplotlib</span>
+  <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;">
+    <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🐍 Python</span>
+    <span style="background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📊 pandas / numpy</span>
+    <span style="background: #fff3e0; color: #e65100; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🤖 scikit-learn</span>
+    <span style="background: #fce4ec; color: #c62828; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">⚡ XGBoost</span>
+    <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📈 seaborn / matplotlib</span>
+  </div>
+  <div style="font-size: 1.05em; line-height: 1.7; color: #444;">
+    🏠 <strong>Building an XGBoost model to predict house prices using 79 features and 1,460 samples — from exploratory data analysis through feature engineering to a production-ready prediction pipeline.</strong>
+  </div>
 </div>
 
 <div style="background: #f8f9fa; border-left: 4px solid #1976d2; padding: 16px 20px; border-radius: 0 8px 8px 0; margin-bottom: 28px;">

@@ -54,99 +54,57 @@ body, html {
   transform: translateY(-1px);
 }
 
-// ── Post Header Image — Smaller & No Gaps ─────────────────────
+// ── Post Header — Compact Banner & No Gaps ────────────────────
 .page__header {
-  margin: 0;
-  padding: 0;
-  border: none;
-  
-  .feature__post {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 
+// Compact header image
+.page__header .feature__post,
 .feature__post {
-  margin: 0;
-  padding: 0;
-}
-
-.archive__item-header {
-  margin: 0;
-  padding: 0;
-  border: none;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 // Header image sizing
-.header-image {
-  max-height: 200px !important;
-  object-fit: cover !important;
+.page__header img,
+.header-image,
+.featured-image {
+  max-height: 120px !important;
+  height: 120px !important;
   width: 100% !important;
+  object-fit: cover !important;
   margin: 0 !important;
   padding: 0 !important;
   border: none !important;
   display: block !important;
 }
 
-// Override Minimal Mistakes header image styles
-.page__header .feature__post-wrapper {
-  margin: 0;
-  padding: 0;
-}
-
-.featured-image {
-  max-height: 200px !important;
-  object-fit: cover !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
-}
-
-// Remove gaps between header and content
+// Remove all gaps between header and content
 .page__content {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-// Header overlay adjustments
-.header__overlay {
-  margin: 0;
-  padding: 0;
-}
-
-// Compact header for posts
-.compact-header {
-  margin: 0;
-  padding: 0;
-  border: none;
-  
-  .page__header {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-  
-  .header-image {
-    max-height: 180px;
-    object-fit: cover;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-// Ensure no whitespace around article
 article {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-// Remove gaps from archive items
-.archive__item {
-  margin: 0;
-  padding: 0;
-  border: none;
+// Compact title area
+.archive__item-title,
+.page__title {
+  margin: 0.5rem 0 !important;
+  padding: 0 !important;
+}
+
+// Meta info (read time, date)
+.archive__item-meta,
+.page__meta {
+  margin: 0.3rem 0 !important;
+  padding: 0 !important;
 }
 
 // ── About Page Hero Banner ────────────────────────────────────

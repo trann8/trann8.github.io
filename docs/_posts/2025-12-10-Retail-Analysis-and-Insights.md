@@ -1,5 +1,5 @@
 ---
-title: "Revitalizing Best Mart: End-to-End Data Engineering & Business Intelligence Strategy ?"
+title: "Revitalizing Best Mart: End-to-End Data Engineering & Business Intelligence Strategy"
 categories:
   - Analytics
   - Business Intelligence
@@ -13,6 +13,21 @@ tags:
 toc: true
 toc_sticky: true
 ---
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🗄️ SQL</span>
+  <span style="background: #fff3e0; color: #e65100; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📊 Tableau</span>
+  <span style="background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">☁️ Azure</span>
+  <span style="background: #fce4ec; color: #c62828; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">⚡ Power Automate</span>
+  <span style="background: #f3e5f5; color: #6a1b9a; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">📈 Strategy</span>
+  <span style="background: #e0f2f1; color: #00695c; padding: 4px 12px; border-radius: 16px; font-size: 0.85em; font-weight: 500;">🛒 Retail</span>
+</div>
+
+<div style="background: #f8f9fa; border-left: 4px solid #1976d2; padding: 16px 20px; border-radius: 0 8px 8px 0; margin-bottom: 28px;">
+  <p style="margin: 0; font-size: 0.95em; color: #555;">
+    📂 <strong>Source Code:</strong> <a href="https://github.com/trann8/trann8.github.io/tree/main/docs/assets/notebooks/1-Biz_strategy/Retail-Analysis-and-Insights" style="color: #1976d2; text-decoration: none; font-weight: 500;">View on GitHub →</a>
+  </p>
+</div>
 
 A full-stack analytics project combining Azure SQL database design, Power Automate workflows, and Tableau storytelling to diagnose performance declines and optimize supply chain allocation.
 

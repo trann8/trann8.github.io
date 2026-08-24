@@ -26,7 +26,6 @@ toc_sticky: true
   </p>
 </div>
 
-## ⭐ Situation 
 
 ## ⭐ Situation
 Customer dissatisfaction was rising in Cincinnati despite stable order volume. Complaints centered on late deliveries and incorrect items, especially during evening peak hours. Leadership needed a clear, data‑driven explanation of what was causing these failures across drivers, merchants, and order characteristics.
@@ -45,8 +44,6 @@ Our service is facing two critical challenges:
 1. **Restructure Driver Incentives** — make low-priced orders more attractive  
 2. **Partner Success Program** — deploy DashMart’s best practices across grocery partners  
 3. **Peak Hour Optimization** — boost driver supply from 19:00 to 00:00
-
-👉[To reproduce this on the dataset or a similar dataset, you can follow the Jupyter Notebook](/assets/notebooks/1-Biz_strategy/Delivery_Analysis_and_Insights/Code.ipynb)
 
 ---
 

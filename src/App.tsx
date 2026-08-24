@@ -195,33 +195,46 @@ export default function App() {
         {/* About Section */}
         <section id="about" class="py-10" aria-label="About">
           <h2 class="mb-8 text-4xl font-bold tracking-tight">Who I Am</h2>
-          <div class="max-w-2xl space-y-4 leading-relaxed text-muted">
-            <p>
-              <code class="font-mono bg-accent/10 text-accent px-1.5 py-0.5 rounded">
-                hey dude
-              </code>{" "}
-              this is an example of variety of stylized colored texts.
-            </p>
-            <p>
-              I'm a{" "}
-              <strong class="text-foreground font-semibold">competitor</strong>.
-              I am ready for the heat of a startup. No time for{" "}
-              <span class="line-through decoration-muted/50">
-                corporate slop
-              </span>{" "}
-              as my pride is on the line :salute:
-            </p>
-            <p>
-              Let's{" "}
-              <span class="text-accent font-medium">
-                solve real problems for real people
-              </span>
-              . Ca Phe Sua Da's on me.
-            </p>
-            <p>
-              - a self-proclaimed{" "}
-              <em class="italic text-foreground">BOSS QUEEN</em>
-            </p>
+          <div class="flex flex-col gap-8 sm:flex-row items-start">
+            {/* Left column: Image */}
+            <img
+              src="/images/example-grad.jpg"
+              alt="Meg Nguyen"
+              class="w-full max-w-xs rounded-lg border border-border shadow-sm"
+              loading="lazy"
+            />
+
+            {/* Right column: Bio text */}
+            <div class="space-y-4 leading-relaxed text-muted min-w-0">
+              <p>
+                <code class="font-mono bg-accent/10 text-accent px-1.5 py-0.5 rounded">
+                  hey dude
+                </code>{" "}
+                this is an example of variety of stylized colored texts.
+              </p>
+              <p>
+                I'm a{" "}
+                <strong class="text-foreground font-semibold">
+                  competitor
+                </strong>
+                . I am ready for the heat of a startup. No time for{" "}
+                <span class="line-through decoration-muted/50">
+                  corporate slop
+                </span>{" "}
+                as my pride is on the line :salute:
+              </p>
+              <p>
+                Let's{" "}
+                <span class="text-accent font-medium">
+                  solve real problems for real people
+                </span>
+                . Ca Phe Sua Da's on me.
+              </p>
+              <p>
+                - a self-proclaimed{" "}
+                <em class="italic text-foreground">BOSS QUEEN</em>
+              </p>
+            </div>
           </div>
         </section>
       </main>

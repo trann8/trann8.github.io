@@ -17,9 +17,8 @@ header:
   caption: "Machine Learning for Real Estate"
   overlay_filter: "rgba(0, 0, 0, 0.3)"
   alt_text: "House price prediction with machine learning"
-last_modified_at:
-  date: "2026-08-24"
-  label: "Updated"
+date: 2026-08-20 00:00:00 +0000
+last_modified_at: "2026-08-24"
 ---
 
 <!-- ═══ Post Preview ═══ -->

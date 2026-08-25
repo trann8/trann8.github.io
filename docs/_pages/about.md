@@ -163,20 +163,12 @@ classes: wide
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- FOOTER: Let's Connect                                       -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-<div style="
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 40px;
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 4rem;
-  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
-">
-  <h3 style="margin: 0 0 16px 0; font-size: 1.8em; font-weight: 600;">Let's Connect! 🤝</h3>
-  <p style="margin: 0 0 24px 0; font-size: 1.1em; opacity: 0.9;">I'm always open to new opportunities, collaborations, and conversations about data.</p>
+<div style="text-align: center; margin-top: 4rem;">
+  <h3 style="margin: 0 0 16px 0; font-size: 1.8em; font-weight: 600; color: #1a1a2e;">Let's Connect! 🤝</h3>
+  <p style="margin: 0 0 24px 0; font-size: 1.1em; color: #555;">I'm always open to new opportunities, collaborations, and conversations about data.</p>
   <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
     <a href="mailto:nn.tutran@gmail.com" style="
-      background: rgba(255,255,255,0.2);
+      background: #667eea;
       color: white;
       padding: 12px 24px;
       border-radius: 12px;
@@ -186,7 +178,7 @@ classes: wide
       display: inline-block;
     ">📧 Email Me</a>
     <a href="https://www.linkedin.com/in/meg-nguyen-56613335/" target="_blank" style="
-      background: rgba(255,255,255,0.2);
+      background: #667eea;
       color: white;
       padding: 12px 24px;
       border-radius: 12px;
@@ -196,7 +188,7 @@ classes: wide
       display: inline-block;
     ">💼 LinkedIn</a>
     <a href="https://github.com/trann8" target="_blank" style="
-      background: rgba(255,255,255,0.2);
+      background: #667eea;
       color: white;
       padding: 12px 24px;
       border-radius: 12px;

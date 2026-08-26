@@ -30,10 +30,11 @@ body, html {
 
 // ── Masthead / Header ─────────────────────────────────────────
 .masthead {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+  background: #1a1a2e;
+  box-shadow: 0 4px 20px rgba(26, 26, 46, 0.35);
   margin: 0;
   padding: 0;
+  border-bottom: none;
   
   .masthead__inner-wrap {
     padding: 1.5rem 2rem;
@@ -52,6 +53,19 @@ body, html {
 .masthead__menu-item a:hover {
   color: #fff !important;
   transform: translateY(-1px);
+}
+
+// Theme paints the nav bar light gray — let the masthead show through
+.greedy-nav {
+  background: transparent;
+}
+
+.site-title {
+  color: #ffffff !important;
+}
+
+.site-subtitle {
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 // ── Post Header — Compact Banner & No Gaps ────────────────────
@@ -907,5 +921,111 @@ body.dark-mode {
   .projects-grid,
   .related-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+// ── Dark Mode (toggled by main.js) ───────────────────────────
+body.dark-mode {
+  background-color: #0f1117;
+  color: #d5dae4;
+
+  .masthead {
+    background: #0a0c12 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  }
+
+  .greedy-nav {
+    background: transparent !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #f1f3f8;
+  }
+
+  a {
+    color: #8fa2ff;
+  }
+
+  .site-title {
+    color: #ffffff !important;
+  }
+
+  .site-subtitle {
+    color: rgba(255, 255, 255, 0.65) !important;
+  }
+
+  // Front page cards
+  .featured-projects h2 {
+    color: #f1f3f8;
+  }
+
+  .project-card,
+  .related-card {
+    background: #1a1d27;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.45);
+
+    h3, h4 { color: #f1f3f8; }
+    p { color: #b6bcc9; }
+  }
+
+  .read-more {
+    color: #8fa2ff;
+
+    &:hover {
+      color: #a78bfa;
+    }
+  }
+
+  // Post / page content — high-contrast text on dark background
+  .page__content,
+  .post-content {
+    color: #c9ced9;
+
+    h1, h2, h3, h4, h5, h6 { color: #f1f3f8 !important; }
+    p, li, td, th, blockquote, figcaption { color: #c9ced9 !important; }
+    a { color: #8fa2ff !important; }
+
+    // Inline-styled light boxes → dark equivalents
+    [style*="background"] {
+      background-color: #1a1d27 !important;
+    }
+
+    code {
+      background: #262a37;
+      color: #e6e8ee;
+    }
+
+    pre,
+    pre code {
+      background: #141721;
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    table th,
+    table td {
+      border-color: rgba(255, 255, 255, 0.14) !important;
+    }
+
+    blockquote {
+      border-left-color: #667eea;
+      background: rgba(102, 126, 234, 0.08);
+    }
+  }
+
+  .page__meta,
+  .archive__item-meta,
+  time {
+    color: #8b93a5;
+  }
+
+  // Footer
+  footer.page__footer,
+  .site-footer {
+    background: #0a0c12;
+    color: #8b93a5;
+
+    a {
+      color: #8fa2ff;
+    }
   }
 }

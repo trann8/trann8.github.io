@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign house_post = site.posts | where_exp: "post", "post.title contains 'House Prices'" | first %}
+{% assign retail_post = site.posts | where_exp: "post", "post.title contains 'Best Mart'" | first %}
+{% assign delivery_post = site.posts | where_exp: "post", "post.title contains 'Delivery Performance'" | first %}
+
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- HERO SECTION                                                -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -61,7 +65,7 @@ layout: default
           <span>scikit-learn</span>
         </div>
         <div style="margin-top: 16px;">
-          <a href="/2026/08/20/Prediction-Model-House-Pricing/" class="read-more">Read more</a>
+          <a href="{{ house_post.url | default: '/posts/' }}" class="read-more">Read more</a>
         </div>
       </div>
     </div>
@@ -76,7 +80,7 @@ layout: default
           <span>Azure</span>
         </div>
         <div style="margin-top: 16px;">
-          <a href="/2025/12/10/Retail-Analysis-and-Insights/" class="read-more">Read more</a>
+          <a href="{{ retail_post.url | default: '/posts/' }}" class="read-more">Read more</a>
         </div>
       </div>
     </div>
@@ -91,7 +95,7 @@ layout: default
           <span>Logistics</span>
         </div>
         <div style="margin-top: 16px;">
-          <a href="/2025/11/21/Delivery-Analysis-and-Insights/" class="read-more">Read more</a>
+          <a href="{{ delivery_post.url | default: '/posts/' }}" class="read-more">Read more</a>
         </div>
       </div>
     </div>

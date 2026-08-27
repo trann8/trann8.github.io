@@ -59,6 +59,7 @@ body, html {
 
 a {
   color: $accent-deep;
+  text-decoration: none; // no underlined links anywhere (browser default off)
   transition: color 0.2s ease;
 
   &:hover {
@@ -441,6 +442,26 @@ blockquote {
       margin-top: 12px;
     }
   }
+}
+
+// ── Blog Listing (posts page) ────────────────────────────────
+// Titles: no underline / accent bar — plain serif heading
+.archive__item-title {
+  display: block;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+// Year separators keep the theme's label style, not the global h2 bar
+.archive__subtitle {
+  display: block;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+// Excerpt: tags and summary each on their own line
+.archive__item-excerpt {
+  white-space: pre-line;
 }
 
 // ── Tags ─────────────────────────────────────────────────────
@@ -829,6 +850,7 @@ table {
     text-align: center;
     margin-top: 0;
     margin-bottom: 2.5rem;
+    border-bottom: none; // keep only the centered accent bar below
 
     // Centered accent underline bar
     &::after {

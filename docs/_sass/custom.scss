@@ -1,17 +1,46 @@
 // ========================================
-// Custom Theme Overrides — Meg's Blog
+// Design System — Meg's Data Portfolio
+// Deep navy · violet accent · serif display
+// Light is default; dark mode via .dark-mode toggle
 // ========================================
 
-// ── Global Typography ──────────────────────────────────────────
+// ── Tokens ───────────────────────────────
+$accent:      #7048e8;  // violet (light mode)
+$accent-deep: #5f3dc4;
+$accent-soft: #efeaff;
+$navy:        #1a1a2e;  // masthead / dark surfaces
+$ink:         #23253a;  // headings
+$text:        #565a6e;  // body text (cool light gray)
+$muted:       #8a8378;  // descriptions (warm gray)
+$surface:     #ffffff;
+$line:        #e9eaf2;
+
+// Dark mode tokens
+$d-bg:      #0d1220;
+$d-surface: #161c30;
+$d-ink:     #eef0f8;
+$d-text:    #c3c9da;
+$d-muted:   #98a0b5;
+$d-accent:  #9d8cff;
+
+// ── Base ─────────────────────────────────
+:root {
+  // Stop browser auto-dark from mangling the light theme
+  color-scheme: light;
+}
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: $text;
+  background: #fbfbfd;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
 }
 
-// ── Remove All White Gaps ──────────────────────────────────────
 body, html {
   margin: 0;
   padding: 0;
@@ -26,6 +55,15 @@ body, html {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+a {
+  color: $accent-deep;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $accent;
+  }
 }
 
 // ── Masthead / Header ─────────────────────────────────────────
@@ -160,21 +198,26 @@ article {
   }
 }
 
-// ── Section Headers ───────────────────────────────────────────
+// ── Section Headers (serif display) ───────────────────────────
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.01em;
+}
+
 h2 {
   font-size: 2em;
   font-weight: 700;
-  color: #1a1a2e;
+  color: $ink;
   margin: 3rem 0 1.5rem 0;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid #667eea;
+  border-bottom: 3px solid $accent;
   display: inline-block;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 600;
-  color: #2d3748;
+  color: $ink;
   margin: 2rem 0 1rem 0;
 }
 
@@ -317,22 +360,23 @@ blockquote {
   }
 }
 
-// ── Tags ──────────────────────────────────────────────────────
+// ── Tags ─────────────────────────────────────────────────────
 .post-tags {
   .tag {
     display: inline-block;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: $accent-soft;
+    color: $accent-deep;
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.85em;
-    font-weight: 500;
+    font-weight: 600;
     margin: 4px 4px 4px 0;
     transition: all 0.3s ease;
-    
+
     &:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+      background: $accent;
+      color: #fff;
     }
   }
 }
@@ -464,16 +508,17 @@ table {
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: $accent;
   color: white;
   border-radius: 12px;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-  
+  box-shadow: 0 4px 12px rgba(112, 72, 232, 0.3);
+
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    background: $accent-deep;
+    box-shadow: 0 6px 20px rgba(112, 72, 232, 0.4);
     color: white;
   }
 }
@@ -652,7 +697,7 @@ body.dark-mode {
   align-items: center;
   gap: 8px;
   margin-top: 16px;
-  color: #667eea;
+  color: $accent-deep;
   font-weight: 500;
   font-size: 0.95em;
   text-decoration: none;
@@ -660,7 +705,7 @@ body.dark-mode {
   
   &:hover {
     gap: 12px;
-    color: #764ba2;
+    color: $accent;
   }
   
   &::after {

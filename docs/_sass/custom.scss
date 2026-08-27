@@ -1033,8 +1033,9 @@ body.dark-mode {
     background: transparent !important;
   }
 
+  // Force high-contrast headings everywhere (light-mode rules are more specific)
   h1, h2, h3, h4, h5, h6 {
-    color: $d-ink;
+    color: $d-ink !important;
   }
 
   a {
@@ -1146,11 +1147,13 @@ body.dark-mode {
     color: $d-muted;
   }
 
-  // Footer
+  // Footer (theme wraps it in <div id="footer" class="page__footer">)
+  #footer,
+  .page__footer,
   footer.page__footer,
   .site-footer {
-    background: #0a0e1c;
-    color: $d-muted;
+    background: #0a0e1c !important;
+    color: #d5dae6;
 
     a {
       color: $d-accent;

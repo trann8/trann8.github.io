@@ -9,41 +9,34 @@ layout: default
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- HERO SECTION                                                -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-<div style="
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 60px 40px;
-  border-radius: 20px;
-  text-align: center;
-  margin-bottom: 3rem;
-  position: relative;
-  overflow: hidden;
-">
-  <div style="position: absolute; top: -50px; left: -50px; width: 150px; height: 150px; background: rgba(255,255,255,0.08); border-radius: 50%;"></div>
-  <div style="position: absolute; bottom: -30px; right: -30px; width: 100px; height: 100px; background: rgba(255,255,255,0.06); border-radius: 50%;"></div>
-  
-  <div style="position: relative; z-index: 1;">
-    <h1 style="font-size: 2.5em; margin: 0 0 12px 0; font-weight: 700;">My Data Journey</h1>
-    <p style="font-size: 1.2em; opacity: 0.95; margin: 0 0 24px 0;">Turning raw data into meaningful stories</p>
+<div class="home-hero">
+  <span class="hero-glow hero-glow--top"></span>
+  <span class="hero-glow hero-glow--bottom"></span>
+
+  <!-- Minimal geometric data illustration -->
+  <svg class="hero-illustration" viewBox="0 0 260 170" fill="none" aria-hidden="true">
+    <line x1="10" y1="40" x2="250" y2="40" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <line x1="10" y1="80" x2="250" y2="80" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <line x1="10" y1="120" x2="250" y2="120" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <rect x="30" y="90" width="24" height="60" rx="4" fill="rgba(255,255,255,0.28)"/>
+    <rect x="70" y="70" width="24" height="80" rx="4" fill="rgba(255,255,255,0.38)"/>
+    <rect x="110" y="96" width="24" height="54" rx="4" fill="rgba(255,255,255,0.28)"/>
+    <rect x="150" y="56" width="24" height="94" rx="4" fill="rgba(255,255,255,0.45)"/>
+    <rect x="190" y="78" width="24" height="72" rx="4" fill="rgba(255,255,255,0.34)"/>
+    <polyline points="42,86 82,64 122,90 162,48 202,70" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="42" cy="86" r="5" fill="#fff"/>
+    <circle cx="82" cy="64" r="5" fill="#fff"/>
+    <circle cx="122" cy="90" r="5" fill="#fff"/>
+    <circle cx="162" cy="48" r="5" fill="#fff"/>
+    <circle cx="202" cy="70" r="5" fill="#fff"/>
+  </svg>
+
+  <div class="home-hero__inner">
+    <h1>My Data Journey</h1>
+    <p>Turning raw data into meaningful stories</p>
     <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-      <a href="/posts/" style="
-        background: rgba(255,255,255,0.2);
-        color: white;
-        padding: 12px 28px;
-        border-radius: 12px;
-        text-decoration: none;
-        font-weight: 500;
-        transition: all 0.3s ease;
-      ">📖 Read Blog</a>
-      <a href="/about/" style="
-        background: rgba(255,255,255,0.2);
-        color: white;
-        padding: 12px 28px;
-        border-radius: 12px;
-        text-decoration: none;
-        font-weight: 500;
-        transition: all 0.3s ease;
-      ">👋 About Me</a>
+      <a href="/posts/" class="hero-btn hero-btn--primary">📖 Read Blog</a>
+      <a href="/about/" class="hero-btn hero-btn--secondary">👋 About Me</a>
     </div>
   </div>
 </div>
@@ -56,6 +49,7 @@ layout: default
   <div class="projects-grid">
     
     <div class="project-card">
+      <div class="project-thumb">🏠</div>
       <div class="project-content">
         <h3>Predicting House Prices with ML</h3>
         <p>Building an XGBoost model to predict house prices using 79 features and 1,460 samples — from EDA to production pipeline.</p>
@@ -71,6 +65,7 @@ layout: default
     </div>
     
     <div class="project-card">
+      <div class="project-thumb">🛒</div>
       <div class="project-content">
         <h3>Best Mart Retail Analytics</h3>
         <p>Full-stack analytics with Azure SQL, Power Automate, and Tableau to diagnose a 7.79% YoY sales decline across 7 regions.</p>
@@ -86,6 +81,7 @@ layout: default
     </div>
     
     <div class="project-card">
+      <div class="project-thumb">🚚</div>
       <div class="project-content">
         <h3>Delivery Performance Deep Dive</h3>
         <p>Analysis of 60,583 delivery records revealing critical insights about driver incentives, merchant reliability, and peak hours.</p>

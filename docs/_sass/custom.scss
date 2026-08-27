@@ -813,6 +813,13 @@ table {
 .featured-projects {
   margin: 3rem 0;
 
+  // White panel — visible edges/margins around the content area
+  background: $surface;
+  border: 1px solid $line;
+  border-radius: 20px;
+  padding: 44px 40px;
+  box-shadow: 0 4px 20px rgba(35, 37, 58, 0.06);
+
   h2 {
     position: relative;
     display: inline-block;
@@ -820,6 +827,7 @@ table {
     font-weight: 700;
     color: $ink;
     text-align: center;
+    margin-top: 0;
     margin-bottom: 2.5rem;
 
     // Centered accent underline bar
@@ -844,10 +852,11 @@ table {
 
   .project-card {
     position: relative;
-    background: $surface;
+    background: #f7f8fc; // slightly off-white so cards read against the white panel
+    border: 1px solid $line;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(35, 37, 58, 0.07);
+    box-shadow: 0 2px 8px rgba(35, 37, 58, 0.04);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     // Accent top border that glows on hover
@@ -1059,7 +1068,13 @@ body.dark-mode {
     background: linear-gradient(135deg, #0e1733 0%, #34307c 100%);
   }
 
-  // Cards
+  // Cards — panel becomes a dark surface in dark mode
+  .featured-projects {
+    background: $d-surface;
+    border-color: rgba(255, 255, 255, 0.07);
+    box-shadow: none;
+  }
+
   .featured-projects h2 {
     color: $d-ink;
   }
@@ -1068,8 +1083,9 @@ body.dark-mode {
   .related-card,
   .card,
   .post-item {
-    background: $d-surface;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+    background: #1c2440; // one step lighter than the panel so cards stay distinct
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: none;
 
     h3, h4 { color: $d-ink; }
     p { color: $d-text; }

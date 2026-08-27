@@ -106,6 +106,89 @@ a {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
+// ── Front Page Hero ───────────────────────────────────────────
+.home-hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 64px 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+  }
+
+  p {
+    font-size: 1.2em;
+    opacity: 0.95;
+    margin: 0 0 24px 0;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.hero-glow {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+
+  &--top { top: -50px; left: -50px; width: 150px; height: 150px; }
+  &--bottom { bottom: -30px; right: -30px; width: 100px; height: 100px; background: rgba(255, 255, 255, 0.06); }
+}
+
+.hero-illustration {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 240px;
+  z-index: 1;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &--primary {
+    background: #fff;
+    color: $navy;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &--secondary {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid rgba(255, 255, 255, 0.65);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: #fff;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-illustration { display: none; }
+}
+
 // ── Post Header — Compact Banner & No Gaps ────────────────────
 .page__header {
   margin: 0 !important;
@@ -577,63 +660,7 @@ table {
   }
 }
 
-// ── Dark Mode Styles ──────────────────────────────────────────
-body.dark-mode {
-  background: #0f0f1a !important;
-  color: #e0e0e0 !important;
-  
-  .page__content,
-  article,
-  .post-content {
-    background: #1a1a2e !important;
-    color: #d0d0d0 !important;
-  }
-  
-  h2, h3, h4 {
-    color: #f0f0f0 !important;
-  }
-  
-  p, li, span {
-    color: #c0c0c0 !important;
-  }
-  
-  a {
-    color: #667eea !important;
-  }
-  
-  .callout,
-  .card,
-  .post-item {
-    background: #16213e !important;
-    border-color: #2a2a4a !important;
-  }
-  
-  code {
-    background: #0f0f1a !important;
-    color: #e65100 !important;
-  }
-  
-  pre {
-    background: #0f0f1a !important;
-    border-color: #2a2a4a !important;
-  }
-  
-  table {
-    background: #1a1a2e !important;
-    
-    th {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-    }
-    
-    td {
-      border-color: #2a2a4a !important;
-    }
-    
-    tr:nth-child(even) {
-      background: #16213e !important;
-    }
-  }
-}
+// (Dark mode lives at the bottom of this file — single source of truth)
 
 // ── Sticky TOC Sidebar ────────────────────────────────────────
 .toc-sidebar {
@@ -993,12 +1020,13 @@ body.dark-mode {
 
 // ── Dark Mode (toggled by main.js) ───────────────────────────
 body.dark-mode {
-  background-color: #0f1117;
-  color: #d5dae4;
+  color-scheme: dark;
+  background: $d-bg;
+  color: $d-text;
 
   .masthead {
-    background: #0a0c12 !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    background: #0a0e1c !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   }
 
   .greedy-nav {
@@ -1006,11 +1034,15 @@ body.dark-mode {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #f1f3f8;
+    color: $d-ink;
   }
 
   a {
-    color: #8fa2ff;
+    color: $d-accent;
+
+    &:hover {
+      color: #b7a9ff;
+    }
   }
 
   .site-title {
@@ -1018,53 +1050,82 @@ body.dark-mode {
   }
 
   .site-subtitle {
-    color: rgba(255, 255, 255, 0.65) !important;
+    color: rgba(255, 255, 255, 0.6) !important;
   }
 
-  // Front page cards
+  // Front page hero — deep navy → indigo
+  .home-hero {
+    background: linear-gradient(135deg, #0e1733 0%, #34307c 100%);
+  }
+
+  // Cards
   .featured-projects h2 {
-    color: #f1f3f8;
+    color: $d-ink;
   }
 
   .project-card,
-  .related-card {
-    background: #1a1d27;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.45);
+  .related-card,
+  .card,
+  .post-item {
+    background: $d-surface;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
 
-    h3, h4 { color: #f1f3f8; }
-    p { color: #b6bcc9; }
+    h3, h4 { color: $d-ink; }
+    p { color: $d-text; }
+  }
+
+  .project-thumb {
+    background: linear-gradient(135deg, #1b2342 0%, #242c52 100%);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .project-tags span {
+    background: rgba(157, 140, 255, 0.16);
+    color: $d-accent;
   }
 
   .read-more {
-    color: #8fa2ff;
+    color: $d-accent;
 
     &:hover {
-      color: #a78bfa;
+      color: #b7a9ff;
     }
   }
 
   // Post / page content — high-contrast text on dark background
   .page__content,
-  .post-content {
-    color: #c9ced9;
+  .post-content,
+  article {
+    color: $d-text;
 
-    h1, h2, h3, h4, h5, h6 { color: #f1f3f8 !important; }
-    p, li, td, th, blockquote, figcaption { color: #c9ced9 !important; }
-    a { color: #8fa2ff !important; }
+    h1, h2, h3, h4, h5, h6 { color: $d-ink !important; }
+    p, li, td, th, figcaption { color: $d-text !important; }
+    a { color: $d-accent !important; }
 
-    // Inline-styled light boxes → dark equivalents
+    // Posts use inline styles — remap light boxes/text to dark equivalents
     [style*="background"] {
-      background-color: #1a1d27 !important;
+      background-color: $d-surface !important;
+    }
+
+    [style*="color"] {
+      color: $d-text !important;
+    }
+
+    h1[style*="color"],
+    h2[style*="color"],
+    h3[style*="color"],
+    h4[style*="color"] {
+      color: $d-ink !important;
     }
 
     code {
-      background: #262a37;
-      color: #e6e8ee;
+      background: #232b47;
+      color: #e8c9a0;
     }
 
     pre,
     pre code {
-      background: #141721;
+      background: #101527;
       border-color: rgba(255, 255, 255, 0.08);
     }
 
@@ -1074,25 +1135,25 @@ body.dark-mode {
     }
 
     blockquote {
-      border-left-color: #667eea;
-      background: rgba(102, 126, 234, 0.08);
+      border-left-color: $d-accent;
+      background: rgba(157, 140, 255, 0.08);
     }
   }
 
   .page__meta,
   .archive__item-meta,
   time {
-    color: #8b93a5;
+    color: $d-muted;
   }
 
   // Footer
   footer.page__footer,
   .site-footer {
-    background: #0a0c12;
-    color: #8b93a5;
+    background: #0a0e1c;
+    color: $d-muted;
 
     a {
-      color: #8fa2ff;
+      color: $d-accent;
     }
   }
 }

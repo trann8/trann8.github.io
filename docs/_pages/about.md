@@ -69,8 +69,7 @@ classes: wide
 </div>
 
 <p style="font-size: 1.15em; line-height: 1.8; color: #444;">
-  Now, I'm pursuing an <strong>MSBA at University of Washington</strong> to deepen my data analytics skills and apply data-driven insights to solve complex business challenges.
-</p>
+  I recently completed <strong> my Master of Science in Business Analytics </strong> at the University of Washington, where I deepened my data analytics skills, strengthened my ability to turn data into actionable insights, and prepared myself to tackle complex business challenges with a data‑driven mindset.
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SECTION: This Blog                                          -->
